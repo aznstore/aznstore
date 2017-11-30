@@ -1,0 +1,29 @@
+{
+  "name": "aznstore",
+  "version": "1.0.0",
+  "description": "First store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aznstore/aznstore.git"
+  },
+  "keywords": [
+    "azn",
+    "store"
+  ],
+  "author": "Andrew Leung & Eric Kuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aznstore/aznstore/issues"
+  },
+  "homepage": "https://github.com/aznstore/aznstore#readme",
+  "dependencies": {
+    "material-ui": "^0.19.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
