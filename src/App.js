@@ -23,6 +23,15 @@ const Topic = ({ match }) => (
   </div>
 )
 
+const Login = () => (
+  <div className="Login">
+    <input type="text" name="Username: "></br>
+    <input type="text" name="Password: "></br>
+    <input type="submit" value="Submit">
+  </div>
+)
+
+
 const Topics = ({ match }) => (
   <div>
     <h2>Topics</h2>
@@ -58,6 +67,7 @@ const BasicExample = () => (
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/topics">Topics</Link></li>
+        <li><Link to="/login">Login</Link></li>
       </ul>
 
       <hr/>
@@ -65,6 +75,7 @@ const BasicExample = () => (
       <Route exact path="/" component={Home}/>
       <Route path="/about" component={About}/>
       <Route path="/topics" component={Topics}/>
+      <Route path="/login" component={Login}/>
     </div>
   </Router>
 )
