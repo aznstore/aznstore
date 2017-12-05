@@ -7,7 +7,7 @@ import {
 
 const Home = () => (
   <div>
-    <h2>Home</h2>
+    <h2>Homie Hello</h2>
   </div>
 )
 
