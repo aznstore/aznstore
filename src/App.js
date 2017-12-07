@@ -25,9 +25,7 @@ const Topic = ({ match }) => (
 
 const Login = () => (
   <div className="Login">
-    <input type="text" name="Username: "></br>
-    <input type="text" name="Password: "></br>
-    <input type="submit" value="Submit">
+    <input type="text" />
   </div>
 )
 
