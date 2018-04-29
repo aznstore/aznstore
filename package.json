@@ -1,0 +1,31 @@
+{
+  "name": "aznstore",
+  "version": "1.0.0",
+  "description": "aznstore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aznstore/aznstore.git"
+  },
+  "keywords": [
+    "store"
+  ],
+  "author": "Eric Kuan & Andrew Leung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aznstore/aznstore/issues"
+  },
+  "homepage": "https://github.com/aznstore/aznstore#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongojs": "^2.4.1",
+    "nodemon": "^1.14.11",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
